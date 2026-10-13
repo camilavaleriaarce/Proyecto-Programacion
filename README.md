@@ -1,4 +1,5 @@
 # Programacion
+modelo_movimiento
 
 # Tarea 1: Modelado del Dominio - CoopeTica R.L.
 Integrante 1: Camila Valeria Cabrera Arce- Usuario de GitHub: camilavaleriaarce
@@ -17,9 +18,9 @@ A continuación, presentamos el modelo de clases UML.
 # 3. Justificación del modelo
 
 Clases Seleccionadas y Diseño:
- **Asociado**: Se seleccionó para centralizar la información personal y el estado de cada cliente de la cooperativa (cedula, nombreCompleto, telefono, correoElectronico, fechaIngreso, activo), incorporando métodos clave como desactivar() para cumplir con la necesidad de desactivar sin borrar información histórica, además de métodos de consulta y modificación de datos de contacto.
+  **Asociado**: Se seleccionó para centralizar la información personal y el estado de cada cliente de la cooperativa (cedula, nombreCompleto, telefono, correoElectronico, fechaIngreso, activo), incorporando métodos clave como desactivar() para cumplir con la necesidad de desactivar sin borrar información histórica, además de métodos de consulta y modificación de datos de contacto.
 
- **CuentaAhorro, CuentaCorriente y CertificadoPlazo**: Se modelaron de forma específica para cubrir los tres productos que maneja la cooperativa. Cada una cuenta con atributos propios como tasas de interés, comisiones de mantenimiento o transacción, y en el caso del CertificadoPlazo, atributos de control temporal como plazoMeses y fechaVencimiento, junto con el método estavencido() que restringe retiros prematuros.
+  **CuentaAhorro, CuentaCorriente y CertificadoPlazo**: Se modelaron de forma específica para cubrir los tres productos que maneja la cooperativa. Cada una cuenta con atributos propios como tasas de interés, comisiones de mantenimiento o transacción, y en el caso del CertificadoPlazo, atributos de control temporal como plazoMeses y fechaVencimiento, junto con el método estavencido() que restringe retiros prematuros.
 
  **Movimiento**: Se incluyó para llevar un registro auditable de cada transacción realizada sobre las cuentas (idMovimiento, fechaHora, tipoMovimiento, monto, saldoPosterior), facilitando la generación de reportes y consultas detalladas.
 
@@ -29,3 +30,4 @@ Clases Seleccionadas y Diseño:
 A continuación, se detalla el uso de herramientas de Inteligencia Artificial para el desarrollo de esta tarea:
 Primero, usamos Claude para darnos una guía de la tarea porque no sabíamos muy bien como usar GitHub, entonces nos dio una guía rápida para entender cómo estructurar bien el repositorio. Después utilizamos Gemini, para aclarar ideas sobre cómo modelar las clases del caso de CoopeTica y para que nos ayudara a ordenar y redactar este archivo README. Y en conclusión, todo lo que está en el diagrama y las decisiones finales las conversamos y armamos nosotras dos en pareja, asegurándonos de entender bien lo que estábamos entregando.
 
+ main
