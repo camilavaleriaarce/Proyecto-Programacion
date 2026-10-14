@@ -9,7 +9,7 @@ CoopeTica R.L. es una cooperativa de ahorro y crédito costarricense de tamaño 
 
 # 2. Diagrama de clases del dominio
 
-A continuación, presentamos el modelo de clases UML.
+En esta sección, se presenta el modelo de clases UML.
 
 ![Diagrama de Clases del Dominio CoopeTica](diagramas/diagrama_clases_png.png)
 
