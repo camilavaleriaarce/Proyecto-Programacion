@@ -29,3 +29,8 @@ Clases Seleccionadas y Diseño:
 A continuación, se detalla el uso de herramientas de Inteligencia Artificial para el desarrollo de esta tarea:
 Primero, usamos Claude para darnos una guía de la tarea porque no sabíamos muy bien como usar GitHub, entonces nos dio una guía rápida para entender cómo estructurar bien el repositorio. Después utilizamos Gemini, para aclarar ideas sobre cómo modelar las clases del caso de CoopeTica y para que nos ayudara a ordenar y redactar este archivo README. Y en conclusión, todo lo que está en el diagrama y las decisiones finales las conversamos y armamos nosotras dos en pareja, asegurándonos de entender bien lo que estábamos entregando.
 
+#5. Bitácora del conflicto
+
+
+
+
